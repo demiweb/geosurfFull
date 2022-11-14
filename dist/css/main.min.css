@@ -3747,6 +3747,8 @@ nav ul.menu_mobile_list {
 
 .content-usecases {
   background-color: #6208d9; }
+  .content-usecases.bg-w {
+    background: rgba(255, 255, 255, 0); }
 
 .content-usecases .uc_container {
   height: 100%;
