@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="298px" height="188px" viewBox="0 0 298 188" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>images/UC_Craigslist_BG</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0 424 0 424 329 0 329"></polygon>
+    </defs>
+    <g id="Use-Cases" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Use-Cases_" transform="translate(-412.000000, -1772.000000)">
+            <g id="Use-Cases" transform="translate(0.000000, 339.000000)">
+                <g id="UC_Sales" transform="translate(130.000000, 1188.000000)">
+                    <g id="images/UC_Insta_BG">
+                        <g id="images/UC_Sales_BG" transform="translate(279.000000, 241.000000)">
+                            <g id="images/UC_Insta_BG" transform="translate(212.000000, 164.500000) scale(-1, 1) translate(-212.000000, -164.500000) ">
+                                <mask id="mask-2" fill="white">
+                                    <use xlink:href="#path-1"></use>
+                                </mask>
+                                <g id="Clip-2"></g>
+                                <path d="M387.194748,291.29656 C419.067176,274.469475 432.189663,224.932445 418.789512,187.435415 C405.38841,149.937481 370.594802,126.222523 335.637639,123.715131 C306.79099,121.645967 276.350624,131.829141 249.732896,118.782571 C221.704976,105.044774 206.931718,70.1165777 185.679946,44.876402 C152.033129,4.91625427 98.2005047,-10.3187497 52.4458167,7.1715517 C26.31305,17.1613627 0.677606488,42.7665785 2.67070302,74.5711515 C5.10216669,113.372929 46.8012456,140.618115 42.2873003,179.169605 C38.7603943,209.296259 8.41226643,226.416099 1.40219597,255.71328 C-7.53155496,293.048572 27.8544667,327.735516 61.2721154,328.947197 C94.689764,330.158877 125.506688,310.256961 156.607932,296.032143 C212.378501,270.523608 271.389753,289.815618 328.638979,297.002571 C348.357893,299.478338 369.145623,300.825553 387.194748,291.29656 Z" id="Fill-1" fill-opacity="0.15" fill="#FEB44F" mask="url(#mask-2)"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

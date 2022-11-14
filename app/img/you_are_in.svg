@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="507px" height="332px" viewBox="0 0 507 332" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>images/You're In</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-2.1%" y="-3.2%" width="104.2%" height="106.4%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <polygon id="path-2" points="0.265082121 0.417104377 400.440134 0.417104377 400.440134 308.244635 0.265082121 308.244635"></polygon>
+        <polygon id="path-4" points="0 326 500.691692 326 500.691692 0.417104377 0 0.417104377"></polygon>
+    </defs>
+    <g id="HP" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-553.000000, -876.000000)" id="Benefits">
+            <g transform="translate(-182.000000, 740.000000)">
+                <g id="images/You're-In" transform="translate(738.000000, 137.000000)">
+                    <g id="You're-In" filter="url(#filter-1)">
+                        <g id="Group-18">
+                            <g id="Group-3" transform="translate(49.995842, 0.000000)">
+                                <mask id="mask-3" fill="white">
+                                    <use xlink:href="#path-2"></use>
+                                </mask>
+                                <g id="Clip-2"></g>
+                                <path d="M400.440134,296.388992 C400.440134,302.949605 395.40097,308.244635 389.205652,308.244635 L11.4953981,308.244635 C5.30008004,308.244635 0.265082121,302.949605 0.265082121,296.388992 L0.265082121,12.2750525 C0.265082121,5.71553737 5.30008004,0.416116498 11.4953981,0.416116498 L389.205652,0.416116498 C395.40097,0.416116498 400.440134,5.71553737 400.440134,12.2750525 L400.440134,296.388992 Z" id="Fill-1" fill="#FFFFFF" mask="url(#mask-3)"></path>
+                            </g>
+                            <mask id="mask-5" fill="white">
+                                <use xlink:href="#path-4"></use>
+                            </mask>
+                            <g id="Clip-5"></g>
+                            <polygon id="Fill-4" fill="#191551" mask="url(#mask-5)" points="68.7380333 281.600337 432.449451 281.600337 432.449451 21.1406061 68.7380333 21.1406061"></polygon>
+                            <path d="M-0.000104158004,299.355482 C1.49248004,314.262573 16.3214551,325.999671 34.5688958,325.999671 L466.116339,325.999671 C484.374195,325.999671 499.192754,314.262573 500.69263,299.355482 L-0.000104158004,299.355482 Z" id="Fill-6" fill="#EFEFEF" mask="url(#mask-5)"></path>
+                            <polygon id="Fill-7" fill="#CCCCCC" mask="url(#mask-5)" points="184.343002 308.244525 316.349732 308.244525 316.349732 299.354714 184.343002 299.354714"></polygon>
+                            <path d="M197.096004,105.978978 C197.096004,124.422675 182.907601,139.374769 165.405931,139.374769 C147.90322,139.374769 133.715858,124.422675 133.715858,105.978978 C133.715858,87.5341832 147.90322,72.5831865 165.405931,72.5831865 C182.907601,72.5831865 197.096004,87.5341832 197.096004,105.978978" id="Fill-8" fill="#630DD3" mask="url(#mask-5)"></path>
+                            <polyline id="Stroke-9" stroke="#65569E" stroke-width="4" mask="url(#mask-5)" points="219.440187 152.72639 229.044597 146.140531 235.063888 157.116962"></polyline>
+                            <path d="M228.814408,148.335818 C227.356196,160.72711 217.773659,170.288679 204.942435,170.288679 C193.551715,170.288679 183.932724,162.703966 180.901726,152.327945" id="Stroke-10" stroke="#65569E" stroke-width="4" mask="url(#mask-5)"></path>
+                            <polyline id="Stroke-11" stroke="#65569E" stroke-width="4" mask="url(#mask-5)" points="311.099231 152.72639 320.703641 146.140531 326.722932 157.116962"></polyline>
+                            <path d="M320.473451,148.335818 C319.015239,160.72711 309.432703,170.288679 296.601478,170.288679 C285.210759,170.288679 275.591767,162.703966 272.560769,152.327945" id="Stroke-12" stroke="#65569E" stroke-width="4" mask="url(#mask-5)"></path>
+                            <polyline id="Stroke-13" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-5)" points="149.654325 105.253326 161.540836 117.601811 180.901726 95.6489488"></polyline>
+                            <path d="M282.823978,105.978978 C282.823978,124.422675 268.635575,139.374769 251.133906,139.374769 C233.631195,139.374769 219.443833,124.422675 219.443833,105.978978 C219.443833,87.5341832 233.631195,72.5831865 251.133906,72.5831865 C268.635575,72.5831865 282.823978,87.5341832 282.823978,105.978978" id="Fill-14" fill="#B12DE8" mask="url(#mask-5)"></path>
+                            <polyline id="Stroke-15" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-5)" points="235.382195 105.253326 247.268706 117.601811 266.629596 95.6489488"></polyline>
+                            <path d="M366.980938,107.723023 C366.980938,126.167818 352.792534,141.118814 335.290865,141.118814 C317.788154,141.118814 303.599751,126.167818 303.599751,107.723023 C303.599751,89.2793259 317.788154,74.3272316 335.290865,74.3272316 C352.792534,74.3272316 366.980938,89.2793259 366.980938,107.723023" id="Fill-16" fill="#1DAFF4" mask="url(#mask-5)"></path>
+                            <polyline id="Stroke-17" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-5)" points="319.538633 106.99781 331.425145 119.346295 350.786035 97.393433"></polyline>
+                        </g>
+                        <text id="You’re-in!" font-family="Helvetica" font-size="35" font-weight="normal" letter-spacing="-2.52" fill="#FFFFFF">
+                            <tspan x="170" y="233">Y</tspan>
+                            <tspan x="190.824727" y="233">o</tspan>
+                            <tspan x="210.290059" y="233" letter-spacing="-0.56">u</tspan>
+                            <tspan x="229.195391" y="233" letter-spacing="-1.68">’</tspan>
+                            <tspan x="235.29127" y="233" letter-spacing="-0.56">r</tspan>
+                            <tspan x="246.386543" y="233">e in!</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

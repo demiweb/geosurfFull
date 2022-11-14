@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="368px" height="267px" viewBox="0 0 368 267" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="6.01176808e-05 0 367.916 0 367.916 266.952 6.01176808e-05 266.952"></polygon>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.08">
+        <g id="images/UC_Sneakers_BG">
+            <g id="Group-3" transform="translate(184.000000, 133.500000) scale(-1, 1) translate(-184.000000, -133.500000) ">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-2"></g>
+                <path d="M323.2791,132.2477 C337.8461,138.1527 352.6841,145.2897 361.1731,159.2257 C376.1641,183.8317 364.8381,224.7757 340.2301,246.6637 C315.6221,268.5517 281.9741,272.1237 256.9231,260.2957 C236.2511,250.5347 219.5151,231.2917 195.8651,230.3397 C170.9651,229.3367 146.4691,248.8307 121.5001,258.7897 C81.9681,274.5587 38.7191,264.5677 14.4611,234.0647 C0.6061,216.6437 -6.4939,188.1227 7.9361,165.8997 C25.5421,138.7887 65.3851,135.3567 78.1161,105.7177 C88.0651,82.5547 74.2411,58.3307 81.4561,34.4087 C90.6501,3.9227 129.2111,-7.3543 152.6721,4.8107 C176.1341,16.9767 189.1371,43.3937 204.6661,65.8177 C232.5141,106.0277 280.9881,115.1047 323.2791,132.2477" id="Fill-1" fill="#FC3E54" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

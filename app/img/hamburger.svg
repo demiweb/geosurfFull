@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="30px" viewBox="0 0 40 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>BTN/Hamburger</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0 40 0 40 29.9995 0 29.9995"></polygon>
+    </defs>
+    <g id="HP" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mobile" transform="translate(-290.000000, -30.000000)">
+            <g id="Header">
+                <g id="BTN/Hamburger" transform="translate(290.000000, 30.000000)">
+                    <g id="Group-3">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Clip-2"></g>
+                        <path d="M2.5,24.9995 L37.5,24.9995 C38.8825,24.9995 40,26.1195 40,27.4995 C40,28.882 38.8825,29.9995 37.5,29.9995 L2.5,29.9995 C1.12,29.9995 0,28.882 0,27.4995 C0,26.1195 1.12,24.9995 2.5,24.9995 M2.5,12.4995 L37.5,12.4995 C38.8825,12.4995 40,13.6195 40,14.9995 C40,16.3795 38.8825,17.4995 37.5,17.4995 L2.5,17.4995 C1.12,17.4995 0,16.3795 0,14.9995 C0,13.6195 1.12,12.4995 2.5,12.4995 M2.5,-0.0005 L37.5,-0.0005 C38.8825,-0.0005 40,1.1195 40,2.4995 C40,3.8795 38.8825,4.9995 37.5,4.9995 L2.5,4.9995 C1.12,4.9995 0,3.8795 0,2.4995 C0,1.1195 1.12,-0.0005 2.5,-0.0005" id="Fill-1" fill="#FFFFFF" mask="url(#mask-2)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
