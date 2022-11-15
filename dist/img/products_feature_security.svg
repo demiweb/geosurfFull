@@ -1,0 +1,41 @@
+<svg width="366" height="241" viewBox="0 0 366 241" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d)">
+<g clip-path="url(#clip0)">
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="39" y="1" width="288" height="223">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M39.1156 1.30066H326.667V223.201H39.1156V1.30066Z" fill="white"/>
+</mask>
+<g mask="url(#mask0)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M326.667 214.655C326.667 219.384 323.046 223.201 318.594 223.201H47.1853C42.7336 223.201 39.1156 219.384 39.1156 214.655V9.84855C39.1156 5.12006 42.7336 1.29993 47.1853 1.29993H318.594C323.046 1.29993 326.667 5.12006 326.667 9.84855V214.655Z" fill="white"/>
+</g>
+<mask id="mask1" mask-type="alpha" maskUnits="userSpaceOnUse" x="3" y="1" width="360" height="235">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M3 236H362.778V1.30066H3V236Z" fill="white"/>
+</mask>
+<g mask="url(#mask1)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M52 203.755H313.35V16H52V203.755Z" fill="#191551"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M238.98 75.0909L182.847 47L126.714 75.0909C118.397 161.966 182.847 177.052 182.847 177.052C182.847 177.052 247.297 161.966 238.98 75.0909Z" fill="#EDB720"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M231.795 79.8184L182.847 55.3231L133.898 79.8184C126.646 155.573 182.847 168.728 182.847 168.728C182.847 168.728 239.048 155.573 231.795 79.8184Z" fill="#FCCA2E"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M182.507 168.728C182.507 168.728 126.306 155.573 133.559 79.8184L182.507 55.3231V168.728Z" fill="#FCCA2E"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M170.892 116.136C169.6 116.136 168.553 115.088 168.553 113.795V90.3579C168.553 83.9844 174.653 78.9926 182.439 78.9926H183.168C190.837 78.9926 196.62 83.8783 196.62 90.3579V113.238C196.62 114.532 195.573 115.579 194.281 115.579C192.99 115.579 191.942 114.532 191.942 113.238V90.3579C191.942 86.548 188.17 83.6744 183.168 83.6744H182.439C177.362 83.6744 173.231 86.6728 173.231 90.3579V113.795C173.231 115.088 172.184 116.136 170.892 116.136Z" fill="#191551"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M201.215 131.418C201.215 134.344 198.766 136.879 195.321 136.879H169.852C166.408 136.879 163.457 134.344 163.457 131.418V109.79C163.457 106.865 166.408 104.536 169.852 104.536H195.321C198.766 104.536 201.215 106.865 201.215 109.79V131.418Z" fill="#191551"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M186.355 116.534C186.355 114.715 184.881 113.239 183.063 113.239H182.89C181.071 113.239 179.598 114.715 179.598 116.534V116.708C179.598 118.528 181.071 120.002 182.89 120.002H183.063C184.881 120.002 186.355 118.528 186.355 116.708V116.534Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M184.536 127.285C184.536 128.148 183.838 128.846 182.976 128.846C182.115 128.846 181.417 128.148 181.417 127.285V118.442C181.417 117.579 182.115 116.881 182.976 116.881C183.838 116.881 184.536 117.579 184.536 118.442V127.285Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M2.99988 216.793C4.07239 227.539 14.7279 236 27.8399 236H337.934C351.053 236 361.701 227.539 362.779 216.793H2.99988Z" fill="#EFEFEF"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M135.462 223.201H230.317V216.792H135.462V223.201Z" fill="#CCCCCC"/>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_d" x="0" y="0" width="366" height="241" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset dy="2"/>
+<feGaussianBlur stdDeviation="1.5"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.15 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+<clipPath id="clip0">
+<rect x="3" y="1" width="360" height="235" fill="white"/>
+</clipPath>
+</defs>
+</svg>

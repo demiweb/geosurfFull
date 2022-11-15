@@ -3756,6 +3756,9 @@ nav ul.menu_mobile_list {
   .content-usecases.bg-w {
     background: rgba(255, 255, 255, 0); }
 
+.api-list, .features-list {
+  width: 100%; }
+
 .content-usecases .uc_container {
   height: 100%;
   position: relative;
