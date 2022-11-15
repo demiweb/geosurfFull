@@ -291,6 +291,10 @@ img {
   width: 100%;
 }
 
+.proxy-locations, .additive-form {
+  width: 100%;
+}
+
 .video-wrappers {
   width: calc(100% + 30px);
   margin-left: -15px;
@@ -299,6 +303,10 @@ img {
   align-items: stretch;
   justify-content: flex-start;
   flex-wrap: wrap;
+}
+
+.product-cards {
+  width: 100%;
 }
 
 .flex-usecases {
@@ -4899,6 +4907,7 @@ nav ul.menu_mobile_list {
 
 .content-usecases {
   background-color: #6208d9;
+
   &.bg-w {
     background: rgba(255, 255, 255, 0);
   }

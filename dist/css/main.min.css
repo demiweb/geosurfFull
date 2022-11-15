@@ -237,6 +237,9 @@ img {
 .big-pricing-banner {
   width: 100%; }
 
+.proxy-locations, .additive-form {
+  width: 100%; }
+
 .video-wrappers {
   width: calc(100% + 30px);
   margin-left: -15px;
@@ -252,6 +255,9 @@ img {
           justify-content: flex-start;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap; }
+
+.product-cards {
+  width: 100%; }
 
 .flex-usecases {
   width: 100%;
