@@ -30,7 +30,7 @@ function homeHeroSlider() {
             let sldPrev = sld.querySelector('.control_prev');
             const swiper2 = new Swiper(sldCont, {
                 // Optional parameters
-                loop: false,
+                loop: true,
                 slidesPerView: 1,
                 slidesPerGroup: 1,
                 speed: 600,
@@ -120,12 +120,18 @@ function burgCont() {
 }
 
 burgCont();
-document.querySelector('#s_translate_control_wrapper').addEventListener('mouseover', () => {
-    document.querySelector('#s_locales_menu').classList.add('active');
-});
-document.querySelector('#s_translate_control_wrapper').addEventListener('mouseout', () => {
-    document.querySelector('#s_locales_menu').classList.remove('active');
-});
+function ifWrapperLang() {
+    if (document.querySelector('#s_translate_control_wrapper')) {
+        document.querySelector('#s_translate_control_wrapper').addEventListener('mouseover', () => {
+            document.querySelector('#s_locales_menu').classList.add('active');
+        });
+        document.querySelector('#s_translate_control_wrapper').addEventListener('mouseout', () => {
+            document.querySelector('#s_locales_menu').classList.remove('active');
+        });
+    }
+}
+ifWrapperLang()
+
 let menuDesk = [...document.querySelectorAll('.nav_desktop_wrapper .menu-item-has-children')];
 
 function hoveringDesk() {
@@ -1108,6 +1114,9 @@ function prcConts() {
                     });
                     btn.classList.add('isPreferred');
                 }
+                $([document.documentElement, document.body]).animate({
+                    scrollTop: $(".plans_contact_form_wrapper").offset().top
+                }, 400);
             })
         })
     }
