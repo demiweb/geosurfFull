@@ -247,35 +247,9 @@ ul {
     }
 }
 
-@-webkit-keyframes arc {
-    0% {
-        stroke-dasharray: 1 210.49px;
-        stroke-dashoffset: 0
-    }
-    40% {
-        stroke-dasharray: 151.55px, 210.49px;
-        stroke-dashoffset: 0
-    }
-    100% {
-        stroke-dasharray: 1 210.49px;
-        stroke-dashoffset: -151.55px
-    }
-}
 
-@keyframes arc {
-    0% {
-        stroke-dasharray: 1 210.49px;
-        stroke-dashoffset: 0
-    }
-    40% {
-        stroke-dasharray: 151.55px, 210.49px;
-        stroke-dashoffset: 0
-    }
-    100% {
-        stroke-dasharray: 1 210.49px;
-        stroke-dashoffset: -151.55px
-    }
-}
+
+
 
 .qode-lazy-preloader {
     font-size: 0;
@@ -1145,7 +1119,6 @@ header.sticky {
     top: -120px;
     left: 0;
     position: fixed;
-    -moz-background-clip: content;
     -webkit-background-clip: content;
     background-clip: content-box
 }
@@ -1576,11 +1549,11 @@ nav.main_menu > ul > li > a {
 }
 
 .with_hover_bg_color nav.main_menu > ul > li > a {
-    -webkit-transition: background-color 0 ease-in-out .15s, color 0 ease-in-out .15s;
-    -moz-transition: background-color 0 ease-in-out .15s, color 0 ease-in-out .15s;
-    -ms-transition: background-color 0 ease-in-out .15s, color 0 ease-in-out .15s;
-    -o-transition: background-color 0 ease-in-out .15s, color 0 ease-in-out .15s;
-    transition: background-color 0 ease-in-out .15s, color 0 ease-in-out .15s
+    -webkit-transition: background-color 0.15s ease-in-out , color 0.15s ease-in-out ;
+    -moz-transition: background-color 0.15s ease-in-out , color 0.15s ease-in-out ;
+    -ms-transition: background-color 0.15s ease-in-out , color 0.15s ease-in-out ;
+    -o-transition: background-color 0.15s ease-in-out , color 0.15s ease-in-out ;
+    transition: background-color 0.15s ease-in-out , color 0.15s ease-in-out ;
 }
 
 header:not(.with_hover_bg_color) nav.main_menu > ul > li:hover > a {
@@ -2738,7 +2711,7 @@ div.video_section {
 }
 
 .section .video-overlay.active {
-    background-image: url(img/pixel-video.png);
+    background-image: url(../img/pixel-video.png);
     background-position: 0 0;
     background-repeat: repeat;
     opacity: 1
@@ -3257,7 +3230,7 @@ div.video_section {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url(img/box_image_shadow.png);
+    background-image: url(../img/box_image_shadow.png);
     background-repeat: no-repeat;
     background-position: center bottom;
     background-size: 100% 30px;
@@ -4291,7 +4264,7 @@ section.parallax_section_holder.qode_vertical_middle_align {
 }
 
 .portfolio_navigation .portfolio_button a {
-    background-image: url(img/portfolio_list_button.png);
+    background-image: url(../img/portfolio_list_button.png);
     background-position: 0 0;
     background-repeat: no-repeat;
     width: 19px;
@@ -4306,12 +4279,12 @@ section.parallax_section_holder.qode_vertical_middle_align {
 }
 
 .portfolio_navigation .portfolio_button a:hover {
-    background-image: url(img/portfolio_list_button_hover.png)
+    background-image: url(../img/portfolio_list_button_hover.png)
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 150 / 100), only screen and (min-device-pixel-ratio: 1.5), only screen and (min-resolution: 160dpi) {
     .portfolio_navigation .portfolio_button a {
-        background-image: url(img/portfolio_list_button@1_5x.png);
+        background-image: url(../img/portfolio_list_button@1_5x.png);
         -o-background-size: 19px 19px;
         -webkit-background-size: 19px 19px;
         -moz-background-size: 19px 19px;
@@ -4319,13 +4292,13 @@ section.parallax_section_holder.qode_vertical_middle_align {
     }
 
     .portfolio_navigation .portfolio_button a:hover {
-        background-image: url(img/portfolio_list_button_hover@1_5x.png)
+        background-image: url(../img/portfolio_list_button_hover@1_5x.png)
     }
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 200 / 100), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 210dpi) {
     .portfolio_navigation .portfolio_button a {
-        background-image: url(img/portfolio_list_button@2x.png);
+        background-image: url(../img/portfolio_list_button@2x.png);
         -o-background-size: 19px 19px;
         -webkit-background-size: 19px 19px;
         -moz-background-size: 19px 19px;
@@ -4333,7 +4306,7 @@ section.parallax_section_holder.qode_vertical_middle_align {
     }
 
     .portfolio_navigation .portfolio_button a:hover {
-        background-image: url(img/portfolio_list_button_hover@2x.png)
+        background-image: url(../img/portfolio_list_button_hover@2x.png)
     }
 }
 
@@ -4341,7 +4314,7 @@ section.parallax_section_holder.qode_vertical_middle_align {
     color: #303030;
     background-color: #e3e3e3;
     border-color: #e3e3e3;
-    background-image: url(img/button-bg-px.png) !important
+    background-image: url(../img/button-bg-px.png) !important
 }
 
 .portfolio_navigation.navigation_title {
@@ -6310,8 +6283,8 @@ article .qode-portfolio-new-badge {
 
 .portfolio_main_holder .item_holder.cursor_change_hover a.portfolio_link_class {
     z-index: 6;
-    cursor: url(img/cursor_plus.cur), crosshair;
-    cursor: url(img/cursor_plus.png) 22 22, crosshair
+    cursor: url(../img/cursor_plus.cur), crosshair;
+    cursor: url(../img/cursor_plus.png) 22 22, crosshair
 }
 
 .portfolio_main_holder .cursor_img {
@@ -6401,9 +6374,7 @@ article .qode-portfolio-new-badge {
     transform: none;
     -webkit-filter: grayscale(1);
     -webkit-filter: grayscale(100%);
-    filter: gray;
     filter: grayscale(100%);
-    filter: url(img/desaturate.svg#grayscale)
 }
 
 .projects_holder.hover_text article .item_holder.grayscale:hover .image_holder .image img {
@@ -6904,13 +6875,13 @@ article .qode-portfolio-new-badge {
     display: block;
     width: 41px;
     height: 41px;
-    background-image: url(img/plus.png);
+    background-image: url(../img/plus.png);
     background-repeat: no-repeat;
     background-position: center
 }
 
 .q_accordion_holder.with_icon .ui-accordion-header.ui-state-active .accordion_icon_mark {
-    background-image: url(img/minus.png)
+    background-image: url(../img/minus.png)
 }
 
 .q_accordion_holder.accordion .ui-accordion-header .accordion_mark {
@@ -6929,7 +6900,7 @@ article .qode-portfolio-new-badge {
 }
 
 .q_accordion_holder.accordion .ui-accordion-header .accordion_mark:hover {
-    background-image: url(img/button-bg-px.png) !important
+    background-image: url(../img/button-bg-px.png) !important
 }
 
 .q_accordion_holder.accordion .ui-accordion-header .accordion_mark.left_mark {
@@ -6949,7 +6920,7 @@ article .qode-portfolio-new-badge {
 }
 
 .q_accordion_holder.accordion .ui-accordion-header.ui-state-active .accordion_mark_icon {
-    background-image: url(img/minus.png)
+    background-image: url(../img/minus.png)
 }
 
 .q_accordion_holder.accordion .ui-accordion-header.ui-state-active .accordion_mark {
@@ -6969,7 +6940,7 @@ article .qode-portfolio-new-badge {
         -webkit-background-size: 9px 9px;
         -moz-background-size: 9px 9px;
         background-size: 9px 9px;
-        background-image: url(img/plus@1_5x.png)
+        background-image: url(../img/plus@1_5x.png)
     }
 
     .q_accordion_holder.accordion .ui-accordion-header.ui-state-active .accordion_mark_icon, .q_accordion_holder.with_icon .ui-accordion-header.ui-state-active .accordion_icon_mark {
@@ -6977,7 +6948,7 @@ article .qode-portfolio-new-badge {
         -webkit-background-size: 9px 9px;
         -moz-background-size: 9px 9px;
         background-size: 9px 9px;
-        background-image: url(img/minus@1_5x.png)
+        background-image: url(../img/minus@1_5x.png)
     }
 }
 
@@ -6987,7 +6958,7 @@ article .qode-portfolio-new-badge {
         -webkit-background-size: 9px 9px;
         -moz-background-size: 9px 9px;
         background-size: 9px 9px;
-        background-image: url(img/plus@2x.png)
+        background-image: url(../img/plus@2x.png)
     }
 
     .q_accordion_holder.accordion .ui-accordion-header.ui-state-active .accordion_mark_icon, .q_accordion_holder.with_icon .ui-accordion-header.ui-state-active .accordion_icon_mark {
@@ -6995,7 +6966,7 @@ article .qode-portfolio-new-badge {
         -webkit-background-size: 9px 9px;
         -moz-background-size: 9px 9px;
         background-size: 9px 9px;
-        background-image: url(img/minus@2x.png)
+        background-image: url(../img/minus@2x.png)
     }
 }
 
@@ -12515,7 +12486,7 @@ body.side_menu_slide_with_content.width_370.side_menu_open header.fixed, body.si
     width: 13px;
     height: 13px;
     line-height: 13px;
-    background-image: url(img/close_side_menu.png);
+    background-image: url(../img/close_side_menu.png);
     background-repeat: no-repeat;
     z-index: 1000;
     -webkit-transition: all .5s ease;
@@ -12535,7 +12506,7 @@ body.side_menu_slide_with_content.width_370.side_menu_open header.fixed, body.si
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 200 / 100), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 210dpi) {
     .side_menu a.close_side_menu {
-        background-image: url(img/close_side_menu@2x.png);
+        background-image: url(../img/close_side_menu@2x.png);
         -o-background-size: 13px 13px;
         -webkit-background-size: 13px 13px;
         -moz-background-size: 13px 13px;
@@ -12545,7 +12516,7 @@ body.side_menu_slide_with_content.width_370.side_menu_open header.fixed, body.si
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 150 / 100), only screen and (min-device-pixel-ratio: 1.5), only screen and (min-resolution: 160dpi) {
     .side_menu a.close_side_menu {
-        background-image: url(img/close_side_menu@2x.png);
+        background-image: url(../img/close_side_menu@2x.png);
         -o-background-size: 13px 13px;
         -webkit-background-size: 13px 13px;
         -moz-background-size: 13px 13px;
@@ -12554,12 +12525,12 @@ body.side_menu_slide_with_content.width_370.side_menu_open header.fixed, body.si
 }
 
 .side_menu.dark a.close_side_menu {
-    background-image: url(img/close_side_menu_dark.png)
+    background-image: url(../img/close_side_menu_dark.png)
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 200 / 100), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 210dpi) {
     .side_menu.dark a.close_side_menu {
-        background-image: url(img/close_side_menu_dark@2x.png);
+        background-image: url(../img/close_side_menu_dark@2x.png);
         -o-background-size: 13px 13px;
         -webkit-background-size: 13px 13px;
         -moz-background-size: 13px 13px;
@@ -12569,7 +12540,7 @@ body.side_menu_slide_with_content.width_370.side_menu_open header.fixed, body.si
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 150 / 100), only screen and (min-device-pixel-ratio: 1.5), only screen and (min-resolution: 160dpi) {
     .side_menu.dark a.close_side_menu {
-        background-image: url(img/close_side_menu_dark@2x.png);
+        background-image: url(../img/close_side_menu_dark@2x.png);
         -o-background-size: 13px 13px;
         -webkit-background-size: 13px 13px;
         -moz-background-size: 13px 13px;
@@ -13261,15 +13232,15 @@ div.pp_default .pp_bottom, div.pp_default .pp_bottom .pp_left, div.pp_default .p
 }
 
 div.pp_default .pp_top .pp_left {
-    background: url(img/prettyPhoto/sprite.png) -78px -93px no-repeat
+    background: url(../img/prettyPhoto/sprite.png) -78px -93px no-repeat
 }
 
 div.pp_default .pp_top .pp_middle {
-    background: url(img/prettyPhoto/sprite_x.png) top left repeat-x
+    background: url(../img/prettyPhoto/sprite_x.png) top left repeat-x
 }
 
 div.pp_default .pp_top .pp_right {
-    background: url(img/prettyPhoto/sprite.png) -112px -93px no-repeat
+    background: url(../img/prettyPhoto/sprite.png) -112px -93px no-repeat
 }
 
 div.pp_default .pp_content .ppt {
@@ -13277,58 +13248,58 @@ div.pp_default .pp_content .ppt {
 }
 
 div.pp_default .pp_content_container .pp_left {
-    background: url(img/prettyPhoto/sprite_y.png) -7px 0 repeat-y;
+    background: url(../img/prettyPhoto/sprite_y.png) -7px 0 repeat-y;
     padding-left: 13px
 }
 
 div.pp_default .pp_content_container .pp_right {
-    background: url(img/prettyPhoto/sprite_y.png) top right repeat-y;
+    background: url(../img/prettyPhoto/sprite_y.png) top right repeat-y;
     padding-right: 13px
 }
 
 div.pp_default .pp_next:hover {
-    background: url(img/prettyPhoto/sprite_next.png) center right no-repeat;
+    background: url(../img/prettyPhoto/sprite_next.png) center right no-repeat;
     cursor: pointer
 }
 
 div.pp_default .pp_previous:hover {
-    background: url(img/prettyPhoto/sprite_prev.png) center left no-repeat;
+    background: url(../img/prettyPhoto/sprite_prev.png) center left no-repeat;
     cursor: pointer
 }
 
 div.pp_default .pp_expand {
-    background: url(img/prettyPhoto/sprite.png) 0 -29px no-repeat;
+    background: url(../img/prettyPhoto/sprite.png) 0 -29px no-repeat;
     cursor: pointer;
     width: 28px;
     height: 28px
 }
 
 div.pp_default .pp_expand:hover {
-    background: url(img/prettyPhoto/sprite.png) 0 -56px no-repeat;
+    background: url(../img/prettyPhoto/sprite.png) 0 -56px no-repeat;
     cursor: pointer
 }
 
 div.pp_default .pp_contract {
-    background: url(img/prettyPhoto/sprite.png) 0 -84px no-repeat;
+    background: url(../img/prettyPhoto/sprite.png) 0 -84px no-repeat;
     cursor: pointer;
     width: 28px;
     height: 28px
 }
 
 div.pp_default .pp_contract:hover {
-    background: url(img/prettyPhoto/sprite.png) 0 -113px no-repeat;
+    background: url(../img/prettyPhoto/sprite.png) 0 -113px no-repeat;
     cursor: pointer
 }
 
 div.pp_default .pp_close {
     width: 30px;
     height: 30px;
-    background: url(img/prettyPhoto/sprite.png) 2px 1px no-repeat;
+    background: url(../img/prettyPhoto/sprite.png) 2px 1px no-repeat;
     cursor: pointer
 }
 
 div.pp_default .pp_gallery ul li a {
-    background: url(img/prettyPhoto/default_thumb.png) center center #f8f8f8;
+    background: url(../img/prettyPhoto/default_thumb.png) center center #f8f8f8;
     border: 1px solid #aaa
 }
 
@@ -13342,7 +13313,7 @@ div.pp_default .pp_gallery a.pp_arrow_next, div.pp_default .pp_gallery a.pp_arro
 }
 
 div.pp_default .pp_nav .pp_pause, div.pp_default .pp_nav .pp_play {
-    background: url(img/prettyPhoto/sprite.png) -51px 1px no-repeat;
+    background: url(../img/prettyPhoto/sprite.png) -51px 1px no-repeat;
     height: 30px;
     width: 30px
 }
@@ -13352,7 +13323,7 @@ div.pp_default .pp_nav .pp_pause {
 }
 
 div.pp_default a.pp_arrow_next, div.pp_default a.pp_arrow_previous {
-    background: url(img/prettyPhoto/sprite.png) -31px -3px no-repeat;
+    background: url(../img/prettyPhoto/sprite.png) -31px -3px no-repeat;
     height: 20px;
     width: 20px;
     margin: 4px 0 0
@@ -13398,19 +13369,19 @@ div.pp_default .pp_description {
 }
 
 div.pp_default .pp_bottom .pp_left {
-    background: url(img/prettyPhoto/sprite.png) -78px -127px no-repeat
+    background: url(../img/prettyPhoto/sprite.png) -78px -127px no-repeat
 }
 
 div.pp_default .pp_bottom .pp_middle {
-    background: url(img/prettyPhoto/sprite_x.png) bottom left repeat-x
+    background: url(../img/prettyPhoto/sprite_x.png) bottom left repeat-x
 }
 
 div.pp_default .pp_bottom .pp_right {
-    background: url(img/prettyPhoto/sprite.png) -112px -127px no-repeat
+    background: url(../img/prettyPhoto/sprite.png) -112px -127px no-repeat
 }
 
 div.pp_default .pp_loaderIcon {
-    background: url(img/prettyPhoto/loader.gif) center center no-repeat
+    background: url(../img/prettyPhoto/loader.gif) center center no-repeat
 }
 
 div.pp_pic_holder a:focus {
@@ -13983,7 +13954,7 @@ body div.pp_default .pp_close:after {
 }
 
 .no-svg .mejs-controls .mejs-button button {
-    background-image: url(img/audio/controls.png)
+    background-image: url(../img/audio/controls.png)
 }
 
 .mejs-controls .mejs-button button:focus {
@@ -14015,15 +13986,15 @@ body div.pp_default .pp_close:after {
 }
 
 .mejs-controls .mejs-play button {
-    background-image: url(img/audio/play.png)
+    background-image: url(../img/audio/play.png)
 }
 
 .mejs-controls .mejs-pause button {
-    background-image: url(img/audio/pause.png)
+    background-image: url(../img/audio/pause.png)
 }
 
 .mejs-controls .mejs-stop button {
-    background-image: url(img/audio/stop.png)
+    background-image: url(../img/audio/stop.png)
 }
 
 .mejs-controls div.mejs-time-rail {
@@ -14193,7 +14164,7 @@ body div.pp_default .pp_close:after {
 }
 
 .wp-audio-shortcode .mejs-controls .mejs-replay button {
-    background-image: url(img/audio/play.png)
+    background-image: url(../img/audio/play.png)
 }
 
 .wp-audio-shortcode .mejs-controls .mejs-time-rail .mejs-time-float {
@@ -14203,13 +14174,13 @@ body div.pp_default .pp_close:after {
 }
 
 .mejs-controls .mejs-mute button, .mejs-controls .mejs-volume-button {
-    background-image: url(img/audio/sound.png);
+    background-image: url(../img/audio/sound.png);
     background-repeat: no-repeat;
     background-position: center
 }
 
 .mejs-controls .mejs-unmute button {
-    background-image: url(img/audio/mute.png);
+    background-image: url(../img/audio/mute.png);
     background-repeat: no-repeat;
     background-position: center
 }
@@ -14228,7 +14199,7 @@ body div.pp_default .pp_close:after {
     display: none;
     height: 115px;
     width: 25px;
-    background-image: url(img/audio/sound.png);
+    background-image: url(../img/audio/sound.png);
     background-repeat: no-repeat;
     background-position: center;
     top: -115px;
@@ -14606,13 +14577,13 @@ aside .widget #lang_sel > ul > li > a, aside .widget #lang_sel_click > ul > li >
     font-family: inherit;
     padding-left: 13px;
     font-weight: 300;
-    background-image: url(img/wc_select_arrow.png) !important;
+    background-image: url(../img/wc_select_arrow.png) !important;
     background-repeat: no-repeat;
     background-position: right
 }
 
 footer #lang_sel > ul > li > a, footer #lang_sel_click > ul > li > a, section.side_menu #lang_sel > ul > li > a, section.side_menu #lang_sel_click > ul > li > a {
-    background-image: url(img/wc_select_arrow_footer.png) !important;
+    background-image: url(../img/wc_select_arrow_footer.png) !important;
     background-repeat: no-repeat;
     background-position: right
 }
@@ -16567,7 +16538,6 @@ aside #lang_sel img.iclflag, aside #lang_sel_click img.iclflag, footer #lang_sel
     -webkit-transition: left .2s ease-in-out;
     -moz-transition: left .2s ease-in-out;
     -o-transition: left .2s ease-in-out;
-    -ms-transform: left .2s ease-in-out;
     transition: left .2s ease-in-out;
     -webkit-border-radius: 0 3px 3px 0;
     -moz-border-radius: 0 3px 3px 0;
@@ -16589,7 +16559,6 @@ aside #lang_sel img.iclflag, aside #lang_sel_click img.iclflag, footer #lang_sel
     -webkit-transition: right .2s ease-in-out;
     -moz-transition: right .2s ease-in-out;
     -o-transition: right .2s ease-in-out;
-    -ms-transform: right .2s ease-in-out;
     transition: right .2s ease-in-out;
     -webkit-border-radius: 3px 0 0 3px;
     -moz-border-radius: 3px 0 0 3px;
@@ -16664,7 +16633,6 @@ aside #lang_sel img.iclflag, aside #lang_sel_click img.iclflag, footer #lang_sel
     -webkit-transition: top .2s ease-in-out .2s;
     -moz-transition: top .2s ease-in-out .2s;
     -o-transition: top .2s ease-in-out .2s;
-    -ms-transform: top .2s ease-in-out .2s;
     transition: top .2s ease-in-out .2s
 }
 
@@ -16943,7 +16911,6 @@ aside #lang_sel img.iclflag, aside #lang_sel_click img.iclflag, footer #lang_sel
     -webkit-transition: all .6s ease-in-out;
     -moz-transition: all .6s ease-in-out;
     -o-transition: all .6s ease-in-out;
-    -ms-transform: all .6s ease-in-out;
     transition: all .6s ease-in-out
 }
 
@@ -17456,13 +17423,13 @@ html[xmlns] .portfolio_slides, html[xmlns] .slides {
     -moz-border-radius: 0;
     -ms-border-radius: 0;
     border-radius: 0;
-    background-image: url(img/frame_arrow_right.png);
+    background-image: url(../img/frame_arrow_right.png);
     border: 0
 }
 
 .have_frame.flexslider .flex-next:hover {
     background-color: transparent !important;
-    background-image: url(img/frame_arrow_right_hover.png)
+    background-image: url(../img/frame_arrow_right_hover.png)
 }
 
 .flexslider .flex-prev, .portfolio_slider .caroufredsel-prev, .portfolio_slider .flex-prev {
@@ -17479,18 +17446,18 @@ html[xmlns] .portfolio_slides, html[xmlns] .slides {
     -moz-border-radius: 0;
     -ms-border-radius: 0;
     border-radius: 0;
-    background-image: url(img/frame_arrow_left.png);
+    background-image: url(../img/frame_arrow_left.png);
     border: 0
 }
 
 .have_frame.flexslider .flex-prev:hover {
     background-color: transparent !important;
-    background-image: url(img/frame_arrow_left_hover.png)
+    background-image: url(../img/frame_arrow_left_hover.png)
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 150 / 100), only screen and (min-device-pixel-ratio: 1.5), only screen and (min-resolution: 160dpi) {
     .have_frame.flexslider .flex-prev {
-        background-image: url(img/frame_arrow_left@1_5x.png);
+        background-image: url(../img/frame_arrow_left@1_5x.png);
         -o-background-size: 25px 67px;
         -webkit-background-size: 25px 67px;
         -moz-background-size: 25px 67px;
@@ -17498,11 +17465,11 @@ html[xmlns] .portfolio_slides, html[xmlns] .slides {
     }
 
     .have_frame.flexslider .flex-prev:hover {
-        background-image: url(img/frame_arrow_left_hover@1_5x.png)
+        background-image: url(../img/frame_arrow_left_hover@1_5x.png)
     }
 
     .have_frame.flexslider .flex-next {
-        background-image: url(img/frame_arrow_right@1_5x.png);
+        background-image: url(../img/frame_arrow_right@1_5x.png);
         -o-background-size: 25px 67px;
         -webkit-background-size: 25px 67px;
         -moz-background-size: 25px 67px;
@@ -17510,13 +17477,13 @@ html[xmlns] .portfolio_slides, html[xmlns] .slides {
     }
 
     .have_frame.flexslider .flex-next:hover {
-        background-image: url(img/frame_arrow_right_hover@1_5x.png)
+        background-image: url(../img/frame_arrow_right_hover@1_5x.png)
     }
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 200 / 100), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 210dpi) {
     .have_frame.flexslider .flex-prev {
-        background-image: url(img/frame_arrow_left@2x.png);
+        background-image: url(../img/frame_arrow_left@2x.png);
         -o-background-size: 25px 67px;
         -webkit-background-size: 25px 67px;
         -moz-background-size: 25px 67px;
@@ -17524,11 +17491,11 @@ html[xmlns] .portfolio_slides, html[xmlns] .slides {
     }
 
     .have_frame.flexslider .flex-prev:hover {
-        background-image: url(img/frame_arrow_left_hover@2x.png)
+        background-image: url(../img/frame_arrow_left_hover@2x.png)
     }
 
     .have_frame.flexslider .flex-next {
-        background-image: url(img/frame_arrow_right@2x.png);
+        background-image: url(../img/frame_arrow_right@2x.png);
         -o-background-size: 25px 67px;
         -webkit-background-size: 25px 67px;
         -moz-background-size: 25px 67px;
@@ -17536,7 +17503,7 @@ html[xmlns] .portfolio_slides, html[xmlns] .slides {
     }
 
     .have_frame.flexslider .flex-next:hover {
-        background-image: url(img/frame_arrow_right_hover@2x.png)
+        background-image: url(../img/frame_arrow_right_hover@2x.png)
     }
 }
 
@@ -17732,7 +17699,6 @@ html[xmlns] .portfolio_slides, html[xmlns] .slides {
     -webkit-transition: opacity .6s ease-out;
     -moz-transition: opacity .6s ease-out;
     -o-transition: opacity .6s ease-out;
-    -ms-transform: opacity .6s ease-out;
     transition: opacity .6s ease-out
 }
 
@@ -18973,7 +18939,6 @@ nav.content_menu {
     -webkit-transition: left .33s cubic-bezier(.694, .0482, .335, 1);
     -moz-transition: left .33s cubic-bezier(.694, .0482, .335, 1);
     -o-transition: left .33s cubic-bezier(.694, .0482, .335, 1);
-    -ms-transform: left .33s cubic-bezier(.694, .0482, .335, 1)
 }
 
 .full_width nav.content_menu.fixed {
@@ -19007,7 +18972,7 @@ nav.content_menu ul li {
 }
 
 nav.content_menu ul li .arrow {
-    background-image: url(img/content_menu_arrow.png);
+    background-image: url(../img/content_menu_arrow.png);
     background-position: 0 0;
     background-repeat: no-repeat;
     display: none;
@@ -19519,7 +19484,6 @@ body .gform_wrapper .button.gform_button_select_files {
     position: absolute;
     -webkit-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
-    -ms-transform: all .3s ease-in-out;
     width: 13px
 }
 
@@ -23728,7 +23692,7 @@ nav.vertical_menu_float ul > li.menu-item-has-children > a > .plus, nav.vertical
     z-index: 10000;
     display: block;
     position: relative;
-    background-image: url(img/vertical_menu_cross.png);
+    background-image: url(../img/vertical_menu_cross.png);
     background-repeat: no-repeat;
     background-position: 100%;
     -o-background-size: 8px 8px;
@@ -23742,7 +23706,7 @@ nav.vertical_menu_float ul li ul > li.menu-item-has-children > a > .plus, nav.ve
 }
 
 .no-touch nav.vertical_menu_float ul > li.menu-item-has-children.open > a > .plus, .no-touch nav.vertical_menu_on_click ul > li.menu-item-has-children.open > a > .plus, .no-touch nav.vertical_menu_toggle ul > li.menu-item-has-children > a:hover > .plus, .touch nav.vertical_menu_float ul > li.menu-item-has-children.open > a > .plus, .touch nav.vertical_menu_on_click ul > li.menu-item-has-children.open > a > .plus, .touch nav.vertical_menu_toggle ul > li.menu-item-has-children.open > a > .plus {
-    background-image: url(img/vertical_menu_minus.png)
+    background-image: url(../img/vertical_menu_minus.png)
 }
 
 nav.vertical_menu_float ul li.menu-item-has-children a span, nav.vertical_menu_on_click ul li.menu-item-has-children a span, nav.vertical_menu_toggle ul li.menu-item-has-children a span {
@@ -23828,70 +23792,70 @@ nav.vertical_menu_float ul li a .q_menu_arrow, nav.vertical_menu_on_click li.nar
 }
 
 .vertical_menu_transparency_on .light nav.vertical_menu_float ul > li.menu-item-has-children > a > .plus, .vertical_menu_transparency_on .light nav.vertical_menu_on_click ul > li.menu-item-has-children > a > .plus, .vertical_menu_transparency_on .light nav.vertical_menu_toggle ul > li.menu-item-has-children > a > .plus {
-    background-image: url(img/vertical_menu_cross_white.png)
+    background-image: url(../img/vertical_menu_cross_white.png)
 }
 
 .vertical_menu_transparency_on .light nav.vertical_menu_float ul > li.menu-item-has-children.open > a > .plus, .vertical_menu_transparency_on .light nav.vertical_menu_on_click ul > li.menu-item-has-children.open > a > .plus, .vertical_menu_transparency_on .light nav.vertical_menu_toggle ul > li.menu-item-has-children > a:hover > .plus {
-    background-image: url(img/vertical_menu_minus_white.png)
+    background-image: url(../img/vertical_menu_minus_white.png)
 }
 
 .vertical_menu_transparency_on .dark nav.vertical_menu_float ul > li.menu-item-has-children > a > .plus, .vertical_menu_transparency_on .dark nav.vertical_menu_on_click ul > li.menu-item-has-children > a > .plus, .vertical_menu_transparency_on .dark nav.vertical_menu_toggle ul > li.menu-item-has-children > a > .plus {
-    background-image: url(img/vertical_menu_cross_black.png)
+    background-image: url(../img/vertical_menu_cross_black.png)
 }
 
 .vertical_menu_transparency_on .dark nav.vertical_menu_float ul > li.menu-item-has-children.open > a > .plus, .vertical_menu_transparency_on .dark nav.vertical_menu_on_click ul > li.menu-item-has-children.open > a > .plus, .vertical_menu_transparency_on .dark nav.vertical_menu_toggle ul > li.menu-item-has-children > a:hover > .plus {
-    background-image: url(img/vertical_menu_minus_black.png)
+    background-image: url(../img/vertical_menu_minus_black.png)
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 150 / 100), only screen and (min-device-pixel-ratio: 1.5), only screen and (min-resolution: 160dpi) {
     nav.vertical_menu_float ul li.menu-item-has-children a .plus, nav.vertical_menu_on_click ul li.menu-item-has-children a .plus, nav.vertical_menu_toggle ul li.menu-item-has-children a .plus {
-        background-image: url(img/vertical_menu_cross@1_5x.png)
+        background-image: url(../img/vertical_menu_cross@1_5x.png)
     }
 
     .no-touch nav.vertical_menu_float ul > li.menu-item-has-children.open > a > .plus, .no-touch nav.vertical_menu_on_click ul > li.menu-item-has-children.open > a > .plus, .no-touch nav.vertical_menu_toggle ul > li.menu-item-has-children > a:hover > .plus, .touch nav.vertical_menu_float ul > li.menu-item-has-children.open > a > .plus, .touch nav.vertical_menu_on_click ul > li.menu-item-has-children.open > a > .plus, .touch nav.vertical_menu_toggle ul > li.menu-item-has-children.open > a > .plus {
-        background-image: url(img/vertical_menu_minus@1_5x.png)
+        background-image: url(../img/vertical_menu_minus@1_5x.png)
     }
 
     .vertical_menu_transparency_on .light nav.vertical_menu_float ul li.menu-item-has-children a .plus, .vertical_menu_transparency_on .light nav.vertical_menu_on_click ul li.menu-item-has-children a .plus, .vertical_menu_transparency_on .light nav.vertical_menu_toggle ul li.menu-item-has-children a .plus {
-        background-image: url(img/vertical_menu_cross_white@1_5x.png)
+        background-image: url(../img/vertical_menu_cross_white@1_5x.png)
     }
 
     .vertical_menu_transparency_on .light nav.vertical_menu_float ul > li.menu-item-has-children.open > a > .plus, .vertical_menu_transparency_on .light nav.vertical_menu_on_click ul > li.menu-item-has-children.open > a > .plus, .vertical_menu_transparency_on .light nav.vertical_menu_toggle ul > li.menu-item-has-children > a:hover > .plus {
-        background-image: url(img/vertical_menu_minus_white@1_5x.png)
+        background-image: url(../img/vertical_menu_minus_white@1_5x.png)
     }
 
     .vertical_menu_transparency_on .dark nav.vertical_menu_float ul li.menu-item-has-children a .plus, .vertical_menu_transparency_on .dark nav.vertical_menu_on_click ul li.menu-item-has-children a .plus, .vertical_menu_transparency_on .dark nav.vertical_menu_toggle ul li.menu-item-has-children a .plus {
-        background-image: url(img/vertical_menu_cross_black@1_5x.png)
+        background-image: url(../img/vertical_menu_cross_black@1_5x.png)
     }
 
     .vertical_menu_transparency_on .dark nav.vertical_menu_float ul > li.menu-item-has-children.open > a > .plus, .vertical_menu_transparency_on .dark nav.vertical_menu_on_click ul > li.menu-item-has-children.open > a > .plus, .vertical_menu_transparency_on .dark nav.vertical_menu_toggle ul > li.menu-item-has-children > a:hover > .plus {
-        background-image: url(img/vertical_menu_minus_black@1_5x.png)
+        background-image: url(../img/vertical_menu_minus_black@1_5x.png)
     }
 }
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 200 / 100), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 210dpi) {
     nav.vertical_menu_float ul li.menu-item-has-children a .plus, nav.vertical_menu_on_click ul li.menu-item-has-children a .plus, nav.vertical_menu_toggle ul li.menu-item-has-children a .plus {
-        background-image: url(img/vertical_menu_cross@2x.png)
+        background-image: url(../img/vertical_menu_cross@2x.png)
     }
 
     .no-touch nav.vertical_menu_float ul > li.menu-item-has-children.open > a > .plus, .no-touch nav.vertical_menu_on_click ul > li.menu-item-has-children.open > a > .plus, .no-touch nav.vertical_menu_toggle ul > li.menu-item-has-children > a:hover > .plus, .touch nav.vertical_menu_float ul > li.menu-item-has-children.open > a > .plus, .touch nav.vertical_menu_on_click ul > li.menu-item-has-children.open > a > .plus, .touch nav.vertical_menu_toggle ul > li.menu-item-has-children.open > a > .plus {
-        background-image: url(img/vertical_menu_minus@2x.png)
+        background-image: url(../img/vertical_menu_minus@2x.png)
     }
 
     .vertical_menu_transparency_on .light nav.vertical_menu_float ul li.menu-item-has-children a .plus, .vertical_menu_transparency_on .light nav.vertical_menu_on_click ul li.menu-item-has-children a .plus, .vertical_menu_transparency_on .light nav.vertical_menu_toggle ul li.menu-item-has-children a .plus {
-        background-image: url(img/vertical_menu_cross_white@2x.png)
+        background-image: url(../img/vertical_menu_cross_white@2x.png)
     }
 
     .vertical_menu_transparency_on .light nav.vertical_menu_float ul > li.menu-item-has-children.open > a > .plus, .vertical_menu_transparency_on .light nav.vertical_menu_on_click ul > li.menu-item-has-children.open > a > .plus, .vertical_menu_transparency_on .light nav.vertical_menu_toggle ul > li.menu-item-has-children > a:hover > .plus {
-        background-image: url(img/vertical_menu_minus_white@2x.png)
+        background-image: url(../img/vertical_menu_minus_white@2x.png)
     }
 
     .vertical_menu_transparency_on .dark nav.vertical_menu_float ul li.menu-item-has-children a .plus, .vertical_menu_transparency_on .dark nav.vertical_menu_on_click ul li.menu-item-has-children a .plus, .vertical_menu_transparency_on .dark nav.vertical_menu_toggle ul li.menu-item-has-children a .plus {
-        background-image: url(img/vertical_menu_cross_black@2x.png)
+        background-image: url(../img/vertical_menu_cross_black@2x.png)
     }
 
     .vertical_menu_transparency_on .dark nav.vertical_menu_float ul > li.menu-item-has-children.open > a > .plus, .vertical_menu_transparency_on .dark nav.vertical_menu_on_click ul > li.menu-item-has-children.open > a > .plus, .vertical_menu_transparency_on .dark nav.vertical_menu_toggle ul > li.menu-item-has-children > a:hover > .plus {
-        background-image: url(img/vertical_menu_minus_black@2x.png)
+        background-image: url(../img/vertical_menu_minus_black@2x.png)
     }
 }
 
@@ -24047,7 +24011,6 @@ nav.vertical_menu_on_click li.narrow .second .inner ul, nav.vertical_menu_toggle
     -webkit-transition: left .15s ease-out;
     -moz-transition: left .15s ease-out;
     -o-transition: left .15s ease-out;
-    -ms-transform: left .15s ease-out;
     transition: left .15s ease-out
 }
 
@@ -24056,7 +24019,6 @@ nav.vertical_menu_on_click li.narrow .second .inner ul, nav.vertical_menu_toggle
     -webkit-transition: left .15s ease-out;
     -moz-transition: left .15s ease-out;
     -o-transition: left .15s ease-out;
-    -ms-transform: left .15s ease-out;
     transition: left .15s ease-out
 }
 
@@ -29817,7 +29779,6 @@ button.qode-btn, input[type=submit].qode-btn {
 .qode-advanced-image-gallery.qode-image-behavior-grayscale .qode-aig-image img {
     -webkit-filter: grayscale(100%);
     -moz-filter: grayscale(100%);
-    filter: gray;
     filter: grayscale(100%);
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
@@ -30102,7 +30063,7 @@ button.qode-btn, input[type=submit].qode-btn {
     width: 70%;
     top: 2.2%;
     left: 8%;
-    background-image: url(img/mds-phone-top.png);
+    background-image: url(../img/mds-phone-top.png);
     z-index: 30;
     pointer-events: none
 }
@@ -30325,7 +30286,7 @@ button.qode-btn, input[type=submit].qode-btn {
     width: 70%;
     top: 2.2%;
     left: 8%;
-    background-image: url(img/mds-phone-top.png);
+    background-image: url(../img/mds-phone-top.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -32376,8 +32337,6 @@ header.transparent .drop_down a[href="#social-share-top"] + .second:not(.right) 
 
 .plans-pricing.residential .q_price_table.active .price_table_inner ul .table_title {
     background: #120594;
-    background: -moz-radial-gradient(center, ellipse cover, rgba(18, 5, 148, 1) 0, rgba(143, 76, 194, 1) 100%);
-    background: -webkit-radial-gradient(center, ellipse cover, rgba(18, 5, 148, 1) 0, rgba(143, 76, 194, 1) 100%);
     background: radial-gradient(ellipse at center, rgba(18, 5, 148, 1) 0, rgba(143, 76, 194, 1) 100%)
 }
 
@@ -32387,8 +32346,6 @@ header.transparent .drop_down a[href="#social-share-top"] + .second:not(.right) 
 
 .plans-pricing.residential .q_price_table.active .price_button .qbutton {
     background: #120594;
-    background: -moz-radial-gradient(center, ellipse cover, rgba(18, 5, 148, 1) 0, rgba(143, 76, 194, 1) 100%);
-    background: -webkit-radial-gradient(center, ellipse cover, rgba(18, 5, 148, 1) 0, rgba(143, 76, 194, 1) 100%);
     background: radial-gradient(ellipse at center, rgba(18, 5, 148, 1) 0, rgba(143, 76, 194, 1) 100%);
     color: #fff;
     border: 0 none
@@ -32850,7 +32807,6 @@ body .content, body .content .container, body .full_width {
 pre {
     white-space: pre-wrap;
     white-space: -moz-pre-wrap;
-    white-space: -pre-wrap;
     white-space: -o-pre-wrap;
     word-wrap: break-word
 }
@@ -33439,7 +33395,7 @@ nav.mobile_menu ul li h3 {
 .gs-locations-section .flag {
     width: 16px !important;
     height: 11px !important;
-    background: url(/wp-content/uploads/2018/04/world-flags.png) no-repeat;
+    background: url(../img/world-flags.png) no-repeat;
     display: inline-block
 }
 
@@ -35367,7 +35323,6 @@ header.fixed_hiding .q_logo {
 
 
 .portfolio_main_holder .item_holder.thin_plus_only .thin_plus_only_icon {
-    font-family:
 }
 
 
@@ -35418,5 +35373,115 @@ header.fixed_hiding .q_logo {
 }
 .sub_menu.vis {
     display: block !important;
+}
+
+.wrap-1,
+.wrap-2 {
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+}
+
+.hs-error-msgs {
+    padding-left: 2px !important;
+    padding-top: 5px !important;
+
+}
+
+.hs-error-msgs label {
+    color: red;
+}
+
+.hs-form-required {
+    display: none;
+}
+
+input.hs-input.error,
+.hs-form-21dbe20f-083b-4d79-82ea-1b36a3f13543_c6c8d780-aa02-4c9b-a7a1-ce719016499b div.field.error input,
+.hs-form-21dbe20f-083b-4d79-82ea-1b36a3f13543_c6c8d780-aa02-4c9b-a7a1-ce719016499b div.field.error textarea,
+.hs-form-21dbe20f-083b-4d79-82ea-1b36a3f13543_c6c8d780-aa02-4c9b-a7a1-ce719016499b div.field.error .chzn-choices,
+textarea.hs-input.error {
+    border-color: red;
+}
+
+.hs-input:not([type="checkbox"]) {
+    width: 100% !important;
+    padding: 5px !important;
+    box-sizing: border-box !important;
+    height: auto;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+
+.submitted-message {
+    text-align: center;
+    font-size: 22px;
+    margin: 0 auto;
+}
+
+.hs-submit input[type="submit"] {
+    width: 100% !important;
+    max-width: 250px !important;
+    padding: 15px 0 !important;
+    font-size: 19px !important;
+    margin: 20px auto !important;
+    background-color: #2189d3 !important;
+    background-image: none !important;
+    border: 0 none !important;
+    color: #fff !important;
+    -webkit-border-radius: 3px !important;
+    -moz-border-radius: 3px !important;
+    border-radius: 3px !important;
+    cursor: pointer !important;
+    display: block !important;
+}
+
+/* @media */
+@media screen and  (max-width: 1367px) and (min-width: 1364px) {
+    .pricing-popup-box-wrap .pricing-popup-box {
+        padding: 10px 10px !important;
+    }
+
+    .pricing-popup-form .hs-submit input[type="submit"] {
+        margin: 0 auto !important;
+        margin-top: -10px !important;
+    }
+}
+
+@media (max-width: 600px) {
+    .wrap-1,
+    .wrap-2 {
+        width: 100%;
+    }
+}
+.contact-us-title-icons {
+    position: relative;
+    padding-bottom: 20px;
+
+}
+
+@media (min-width: 768px) {
+    .contact-us-title-icons div.title {
+
+    }
+}
+
+.contact-us-title-icons div.title {
+    position: absolute;
+    width: auto;
+    left: 0;
+    padding: 0 !important;
+    top: 0 !important;
+}
+
+#menu-footer-menu > li, #menu-footer-menu-independant-russian > li {
+    width: 32%;
+}
+
+@media (max-width: 768px) {
+    #menu-footer-menu > li, #menu-footer-menu-independant-russian > li {
+        width: 49%;
+    }
 }
 
